@@ -26,6 +26,9 @@ h1 { max-width: 10ch; margin-top: 16px; font-size: clamp(4rem, 13vw, 9rem); }
 h2 { margin-top: 68px; font-size: clamp(2rem, 5vw, 3.6rem); }
 h3 { font-size: 1.6rem; }
 .intro { max-width: 54ch; margin-top: 28px; color: var(--dim); font-size: 1.12rem; }
+.page-intro-grid { display: grid; grid-template-columns: 1fr; gap: 32px; align-items: center; }
+.page-image { display: block; width: 100%; height: auto; max-height: 520px; object-fit: cover; background: var(--ink-2); }
+@media (min-width: 760px) { .page-intro-grid { grid-template-columns: 1.1fr .9fr; gap: 56px; } }
 .grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1px; margin-top: 32px; background: rgba(242, 232, 213, .16); }
 .card { min-height: 180px; padding: 26px; background: var(--ink-2); }
 .card p { margin: 12px 0 0; color: var(--dim); }
@@ -35,6 +38,9 @@ h3 { font-size: 1.6rem; }
 .list { margin-top: 32px; border-top: 1px solid rgba(242, 232, 213, .16); }
 .list article { padding: 24px 0; border-bottom: 1px solid rgba(242, 232, 213, .16); }
 .list p { max-width: 62ch; margin: 10px 0 0; color: var(--dim); }
+.event-list { display: grid; gap: 1px; margin-top: 40px; background: rgba(242, 232, 213, .16); }
+.event-item { padding: 26px; background: var(--ink-2); }
+.event-item p { max-width: 70ch; margin: 12px 0 0; color: var(--dim); }
 .back { display: inline-block; margin-top: 56px; color: var(--paper); text-underline-offset: 4px; }
 .site-footer { padding: 28px 5vw; border-top: 1px solid rgba(242, 232, 213, .16); color: var(--dim); font-size: .85rem; }
 @media (max-width: 700px) {
