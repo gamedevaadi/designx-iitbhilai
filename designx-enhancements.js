@@ -198,11 +198,14 @@
 
   var horizontal = document.querySelector("[data-horizontal-gallery]");
   if (horizontal && !reduceMotion && !coarsePointer) {
+    var horizontalSection = horizontal.closest(".horizontal-section") || horizontal.parentElement;
     var horizontalTicking = false;
     function moveGallery() {
-      var rect = horizontal.parentElement.getBoundingClientRect();
-      var progress = Math.min(1, Math.max(0, (window.innerHeight - rect.top) / (window.innerHeight + rect.height)));
-      horizontal.style.transform = "translate3d(" + (-progress * Math.max(0, horizontal.scrollWidth - window.innerWidth * 0.72)) + "px,0,0)";
+      var rect = horizontalSection.getBoundingClientRect();
+      var travel = Math.max(1, horizontalSection.offsetHeight - window.innerHeight);
+      var progress = rect.top > 0 ? 0 : Math.min(1, Math.max(0, -rect.top / travel));
+      var distance = Math.max(0, horizontal.scrollWidth - window.innerWidth * 0.72);
+      horizontal.style.transform = "translate3d(" + (-progress * distance) + "px,0,0)";
       horizontalTicking = false;
     }
     window.addEventListener("scroll", function () {

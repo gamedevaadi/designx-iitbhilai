@@ -39,6 +39,8 @@ body.page-leaving { opacity: 0; }
 .cursor-ring.is-view::after, .enhanced-cursor-ring.is-view::after { content: "VIEW"; position: absolute; inset: 0; display: grid; place-items: center; color: var(--sun); font: 500 .55rem var(--mono); letter-spacing: .08em; }
 .horizontal-viewport { overflow: hidden; }
 @media (min-width: 900px) {
+  .horizontal-section { min-height: 165vh; }
+  .horizontal-section .horizontal-viewport { position: sticky; top: 96px; }
   .artwork-grid[data-horizontal-gallery] { display: flex; width: max-content; gap: 24px; will-change: transform; }
   .artwork-grid[data-horizontal-gallery] .artwork-card { width: clamp(240px, 28vw, 360px); flex: 0 0 auto; }
 }
