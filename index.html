@@ -251,6 +251,9 @@ body.has-custom-cursor, body.has-custom-cursor a, body.has-custom-cursor button 
 
 .work-grid { margin-top: 64px; display: grid; gap: 0; grid-template-columns: 1fr; }
 @media (min-width: 860px) { .work-grid { grid-template-columns: 1fr 1fr; column-gap: 64px; } }
+.statement-grid { display: grid; grid-template-columns: 1fr; gap: 32px; align-items: center; }
+@media (min-width: 860px) { .statement-grid { grid-template-columns: 1.1fr .9fr; gap: 64px; } }
+.section-image { display: block; width: 100%; height: auto; border: 1px solid var(--line-on-ink); }
 
 .work-row { padding-block: 22px; border-top: 1px solid var(--line-on-ink); display: grid; grid-template-columns: 1fr; gap: 6px; }
 .work-row:last-child { border-bottom: 1px solid var(--line-on-ink); }
@@ -439,6 +442,7 @@ body.has-custom-cursor, body.has-custom-cursor a, body.has-custom-cursor button 
   <!-- =================== WHAT DESIGNX DOES =================== -->
   <section class="section section-ink" id="studio">
     <div class="wrap">
+      <div class="statement-grid">
       <h2 class="statement" data-kinetic>
         <span class="word" style="--i:0">If</span>
         <span class="word" style="--i:1">it</span>
@@ -454,6 +458,8 @@ body.has-custom-cursor, body.has-custom-cursor a, body.has-custom-cursor button 
         <span class="word" style="--i:11">made</span>
         <span class="word" style="--i:12">it.</span>
       </h2>
+      <img class="section-image" src="next.PNG" alt="DesignX creative work" data-reveal>
+      </div>
 
       <div class="work-grid">
         <div>
