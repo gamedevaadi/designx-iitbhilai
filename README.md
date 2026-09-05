@@ -8,7 +8,7 @@ This website is a digital space for showcasing the work, events, people, and cre
 
 ---
 
-## ✦ About the Website
+## About the Website
 
 We wanted the website to feel like more than just a college club website.
 
@@ -20,7 +20,7 @@ The website combines an editorial-inspired layout with interactive animations, a
 
 ---
 
-## 🎨 What You'll Find
+## What You'll Find
 
 - **Studio** — Get to know DesignX and what we do.
 - **Disciplines** — Explore the different areas of design we work with.
@@ -32,7 +32,16 @@ The website combines an editorial-inspired layout with interactive animations, a
 - **Instagram** — Follow our latest work and updates.
 
 ---
-## 👨‍💻 Made By
+
+## AI Assistance
+
+We used **Claude** and **GitHub Copilot** for brainstorming, debugging and development assistance. However, the research, design decisions, content, implementation, testing, and final execution were done by us after hours of planning and iteration.
+
+**AI was a tool to help us build — not a replacement for our work.**
+
+---
+
+## Made By
 
 This website was designed and developed by:
 
