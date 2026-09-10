@@ -4,7 +4,7 @@
 
 DesignX is the design and creative club of **IIT Bhilai**.
 
-This website is a digital space for showcasing the work, events, people, and creative side of DesignX. From posters and digital art to UI/UX, illustrations, 3D work, and visual experiments — the website brings everything together in one place.
+This website is a digital space for showcasing the work, events, people, and creative side of DesignX. From posters and digital art to UI/UX, illustrations, 3D work, and visual experiments the website brings everything together in one place.
 
 ---
 
@@ -12,7 +12,7 @@ This website is a digital space for showcasing the work, events, people, and cre
 
 We wanted the website to feel like more than just a college club website.
 
-The goal was to create an experience that reflects what DesignX is about — **creativity, experimentation, design, and technology**.
+The goal was to create an experience that reflects what DesignX is about **creativity, experimentation, design, and technology**.
 
 The website combines an editorial-inspired layout with interactive animations, artwork, event showcases and a strong visual identity.
 
@@ -35,7 +35,7 @@ The website combines an editorial-inspired layout with interactive animations, a
 
 ## AI Assistance
 
-We used **Claude** and **GitHub Copilot** for brainstorming, debugging and development assistance. However, the research, design decisions, content, implementation, testing, and final execution were done by us after hours of planning and iteration.
+We used **Claude** and **GitHub Copilot** for brainstorming, debugging and development assistance. However, the research, design decisions, content, implementation, testing and final execution were done by us after hours of planning and iteration.
 
 **AI was a tool to help us build — not a replacement for our work.**
 
